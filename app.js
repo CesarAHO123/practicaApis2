@@ -7,6 +7,8 @@ const app = express();
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 var PORT = process.env.PORT || 5000;
+var http = require('http');
+var server = http.Server(app);
 //Ocultamos los datos de login a la BD
 require('dotenv/config');
 //Importamos los comandos de la api
@@ -28,3 +30,6 @@ app.get('/', async(req,res) =>{
 mongoose.connect(process.env.DB_CONNECTION, { useNewUrlParser: true }, () =>
     console.log('Conectado a la base!'));
 //Como recibimos el server.
+server.listen(PORT, function() {
+    console.log('Chat server running');
+  });
