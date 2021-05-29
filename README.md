@@ -5,6 +5,11 @@ Link de la app en Heroku: https://hack-mascotas.herokuapp.com/</p>
 <h2>¿Como se manejan las funciones?</h2>
 <h3>Debido a que los 2 endpoint hacen uso de POST y DELETE las peticiones deberan realizarse con Postman</h3>
 <p>Aqui podemos ver ejemplos de como subir los datos: </p>
-https://user-images.githubusercontent.com/50376236/120071448-1d399c00-c055-11eb-9a99-0cf86b4b608a.png <br>
-https://user-images.githubusercontent.com/50376236/120071454-2165b980-c055-11eb-8aa8-081c13b8333b.png
+<p>Subir datos de mascotas: Se necesita subir un json en el body con los datos que queremos subir</p>
+<p align="center">
+<img height="250" src="https://user-images.githubusercontent.com/50376236/120087070-7e3f8f00-c0aa-11eb-9733-f26fc4e98cab.png"></p>
+
+<p>Eliminar datos de mascotas: Escogemos la ID de la mascota que queremos eliminar</p>
+<p align="center">
+<img height="80" src="https://user-images.githubusercontent.com/50376236/120087082-98796d00-c0aa-11eb-9eee-bd6bec5731eb.png"></p>
 <h4>Ademas si copiamos unicamente el link de heroku sin ninguna instruccion nos mostrara un json con todos los datos para que sepamos cuales estan disponibles para eliminar o ver si ya se elimino</h4>
