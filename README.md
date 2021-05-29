@@ -13,3 +13,7 @@ Link de la app en Heroku: https://hack-mascotas.herokuapp.com/</p>
 <p align="center">
 <img height="80" src="https://user-images.githubusercontent.com/50376236/120087082-98796d00-c0aa-11eb-9eee-bd6bec5731eb.png"></p>
 <h4>Ademas si copiamos unicamente el link de heroku sin ninguna instruccion nos mostrara un json con todos los datos para que sepamos cuales estan disponibles para eliminar o ver si ya se elimino</h4>
+<p align="center">
+<img height="150" src="https://user-images.githubusercontent.com/50376236/120087321-6ec14580-c0ac-11eb-8e41-e2d6802945b8.png"></p>
+
+
